@@ -128,3 +128,6 @@ alias rm='gvfs-trash'
 export PATH="/usr/lib/ccache:$PATH"
 export CCACHE_PREFIX=icecc
 alias open_pdf='xdg-open'
+
+alias vrosrc='vim ~/.rosrc'
+alias rosenv='printenv | grep ROS'
